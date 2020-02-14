@@ -12,19 +12,19 @@ class Navbar extends Component {
                     </a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down" >
                         <li className="logged-in">
-                            <a href="#" className="grey-text modal-trigger" data-target="modal-account">Account</a>
+                            <a href="/" className="grey-text modal-trigger" data-target="modal-account">Account</a>
                         </li>
                         <li className="logged-in">
                             <a href="/" className="grey-text" id="logout">Logout</a>
                         </li>
                         <li className="logged-in">
-                            <a href="#" className="grey-text modal-trigger" data-target="modal-create">Create Guide</a>
+                            <a href="/" className="grey-text modal-trigger" data-target="modal-create">Create Post</a>
                         </li>
                         <li className="logged-out">
-                            <a href="#" className="grey-text modal-trigger" data-target="modal-login">Login</a>
+                            <a href="/" className="grey-text modal-trigger" data-target="modal-login">Login</a>
                         </li>
                         <li className="logged-out">
-                            <a href="#" className="grey-text modal-trigger" data-target="modal-signup">Sign up</a>
+                            <a href="/" className="grey-text modal-trigger" data-target="modal-signup">Sign up</a>
                         </li>
                     </ul>
                 </div>

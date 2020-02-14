@@ -5,23 +5,12 @@ class PostsList extends Component {
     render() {
         return (
             <div className="container">
-                <ul className="collapsible z-depth-0 posts" >
+                <ul className="collapsible z-depth-0 welcome" >
                     <li>
-                        <div className="collapsible-header grey lighten-4">Post title1</div>
-                        <div className="collapsible-body white">Lorem ipsum dolor sit amet.</div>
+                        <div className="collapsible-header grey lighten-4">Welcome</div>
+                        <div className="collapsible-body center white">Please Login or Signup.</div>
                     </li>
-                    <li>
-                        <div className="collapsible-header grey lighten-4">Post title2</div>
-                        <div className="collapsible-body white"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                    <li>
-                        <div className="collapsible-header grey lighten-4">Post title3</div>
-                        <div className="collapsible-body white"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                    <li>
-                        <div className="collapsible-header grey lighten-4">Post title4</div>
-                        <div className="collapsible-body white"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
+
                 </ul>
             </div>
         );

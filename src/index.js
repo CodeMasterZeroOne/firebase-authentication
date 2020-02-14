@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import M from "materialize-css";
-import firebase from './components/config/fbConfig';
 
 // setup materialize components
 document.addEventListener('DOMContentLoaded', function () {
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
     M.Collapsible.init(items);
 
 });
-
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
